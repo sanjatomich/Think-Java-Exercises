@@ -2,7 +2,7 @@ package chapter02;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class Main {
+public class TimeExercise {
 
     // public static int secondsOfTheDay (int hour, int minute) {
     //     if (hour >= 0 && hour <= 23 && minute >= 0 && minute <= 59) {
