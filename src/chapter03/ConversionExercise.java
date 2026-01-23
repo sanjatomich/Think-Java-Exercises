@@ -44,7 +44,7 @@ public class ConversionExercise {
         Random random = new Random();
         int randomNumber = random.nextInt(100) + 1; // 0 <= value < bound
 
-        int offset = Math.abs(number-randomNumber);
+        int offset = Math.abs(number - randomNumber);
 
         System.out.println("Your guess is: " + number);
         System.out.printf("The number I was thinking of is: %d\nYou were off by: %d\n", randomNumber, offset);
